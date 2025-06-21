@@ -18,8 +18,13 @@ The backend for the Airbnb Clone project provides a robust and scalable foundati
 * **CI/CD Pipelines:** Automated pipelines for testing and deploying code changes.
 
 ### **Database Design**
-**Users** Fields: id, name and surename, email Relationships: User can see many properties
-**Properties** Fields: id, PropertyName, Propertyaddress Relationships: A single property can have only one booiking
-**Bookings** Fields: id, CheckInDate, CheckoutDate Relationships: One booking for one user
-**Reviews** Field: id, Rating, date&time Relationships: Reviews for many users
-**Payments** Field: id, dateOfPayment, Relationships: bill/amount 
+* **Users** 
++ **Fields**: id, name and surename, email **Relationships**: User can see many properties
+* **Properties** 
++ **Fields**: id, PropertyName, Propertyaddress **Relationships**: A single property can have only one booiking
+* **Bookings** 
++ **Fields**: id, CheckInDate, CheckoutDate **Relationships**: One booking for one user
+* **Reviews** 
++ **Field**: id, Rating, date&time **Relationships**: Reviews for many users
+* **Payments** 
++ **Field**: id, dateOfPayment, **Relationships**: bill/amount 
