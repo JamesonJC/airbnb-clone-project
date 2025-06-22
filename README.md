@@ -43,3 +43,22 @@
     5. **User ↔ Review**
         + A user can leave many reviews
         + A review is for one listing and written by one user
+
+### **Feature Breakdown**
+* **User Management**
+    The application includes a secure and scalable system for user registration, login, and profile management. This feature ensures only authenticated users can create listings, make bookings, and interact with the platform securely.
+
+* **Property Management**
+    Hosts can create, update, and manage property listings with details such as location, price, and availability. This functionality supports a rich user experience by enabling searchable and customizable listings.
+
+* **Booking System**
+    Users can reserve properties for specific dates using an intuitive booking interface. The system manages availability, prevents double-booking, and provides booking summaries for both guests and hosts.
+
+* **Payment Processing**
+    An integrated payment system handles secure financial transactions between guests and hosts. It records payment details and ensures that bookings are only confirmed after successful payment.
+
+* **Review System**
+    Users can leave ratings and written reviews for properties they have stayed in. This fosters trust in the community and helps future guests make informed booking decisions.
+
+* **Data Optimization**
+    The platform is designed with database optimization in mind, ensuring fast data retrieval and smooth user interactions. This includes proper indexing, query tuning, and efficient schema design.
