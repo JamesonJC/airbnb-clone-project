@@ -27,6 +27,7 @@
     + **Field**: id, Rating, date&time
  * **Payments** 
     + **Field**: id, dateOfPayment, amountPaid
+    
   **Relationships**:
     1. **User ↔ Properties**
         + A user can create many listings
