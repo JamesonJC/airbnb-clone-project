@@ -62,3 +62,39 @@
 
 * **Data Optimization**
     The platform is designed with database optimization in mind, ensuring fast data retrieval and smooth user interactions. This includes proper indexing, query tuning, and efficient schema design.
+
+### **API Security**
+
+1. **Authentication**
+    All API requests require secure authentication using OAuth 2.0 or token-based mechanisms (e.g., JWT).
+    Ensures that only verified users and services can access protected resources.
+
+2. **Authorization**
+    Role-based access control (RBAC) will be enforced.
+    Determines which users have permission to access or modify specific data (e.g., only property owners can update their own listings).
+
+3. **Rate Limiting**
+    Prevents abuse by limiting the number of requests per IP or user within a given time period.
+    Helps mitigate denial-of-service (DoS) attacks and ensures fair use.
+
+3. **HTTPS**
+    All API traffic is encrypted via HTTPS to prevent eavesdropping and man-in-the-middle attacks.
+    
+4. **Input Validation & Sanitization**
+    All inputs are validated and sanitized to prevent injection attacks and ensure data integrity.
+
+5. **Logging & Monitoring**
+    Security events (e.g., failed logins, access to sensitive endpoints) are logged and monitored for suspicious behavior.
+    
+## **Why Security Is Crucial**
+
+* User Data Protection
+    + Personal and sensitive data (names, emails, passwords) must be kept secure to maintain user trust and comply with regulations like GDPR.
+    Property and Booking Integrity
+    Ensures that property details, availability, and bookings are not tampered with or accessed by unauthorized users.
+
+* Payment Security
+    + Payment endpoints handle financial transactions and require high levels of security (e.g., PCI compliance) to prevent fraud and data breaches.
+
+* Review Authenticity
+    + Prevents spam, manipulation, or tampering with user-generated reviews that affect platform credibility.
