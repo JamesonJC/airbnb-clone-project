@@ -86,7 +86,7 @@
 5. **Logging & Monitoring**
     Security events (e.g., failed logins, access to sensitive endpoints) are logged and monitored for suspicious behavior.
     
-## **Why Security Is Crucial**
+#### **Why Security Is Crucial**
 
 * User Data Protection
     + Personal and sensitive data (names, emails, passwords) must be kept secure to maintain user trust and comply with regulations like GDPR.
@@ -98,3 +98,25 @@
 
 * Review Authenticity
     + Prevents spam, manipulation, or tampering with user-generated reviews that affect platform credibility.
+
+### **CI/CD Pipeline**
+
+**CI/CD (Continuous Integration and Continuous Deployment/Delivery)** is a development practice that automates the process of building, testing, and deploying code. It ensures that changes made to the codebase are tested and delivered to production quickly and reliably.
+Continuous Integration (CI): Automatically runs tests and checks every time code is pushed to the repository. This ensures new changes do not break existing functionality.
+Continuous Deployment/Delivery (CD): Automatically deploys the tested code to a staging or production environment, reducing manual deployment errors and speeding up release cycles.
+
+**Importance for This Project**
+
+* **Implementing CI/CD pipelines ensures:**
+ + **Code Quality:** Automated testing reduces bugs and improves maintainability.
+ + **Faster Releases:** Shortens the time between writing code and deploying it.
+ + **Team Efficiency:** Developers can focus on writing features while the pipeline handles integration and delivery.
+ + **Consistency:** Ensures that every deployment follows the same reliable steps.
+
+**Tools Used**
++ **GitHub Actions:** Automates workflows for testing, linting, and deployment directly from the GitHub repository.
++ **Docker:** Containerizes the application for consistent deployment across environments.
++ **Docker Hub or GitHub Container Registry (GHCR):** Stores Docker images used in deployments.
+**Optional:**
++ **AWS/GCP/Azure or Vercel/Netlify:** For hosting the application.
++ **Terraform:** For infrastructure as code (IaC).
